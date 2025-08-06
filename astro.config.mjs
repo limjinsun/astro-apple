@@ -23,7 +23,7 @@ let {
 // https://astro.build/config
 export default defineConfig({
   outDir: './docs',  // <== This is where build output goes
-  base: '/',  // <== This is CRITICAL for GitHub Pages!
+  base: '/astro-orange/',  // <== This is CRITICAL for GitHub Pages!
   site: 'https://limjinsun.github.io/astro-orange',  // Full URL
   trailingSlash: config.site.trailingSlash ? "always" : "never",
   i18n: {
