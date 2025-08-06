@@ -23,7 +23,7 @@ let {
 // https://astro.build/config
 export default defineConfig({
   outDir: './docs',  // <== This is where build output goes
-  site: 'https://limjinsun.github.io',
+  site: 'https://limjinsun.github.io/astro-apple/',
   base: '/astro-apple/', // repo-name
   trailingSlash: config.site.trailingSlash ? "always" : "never",
   i18n: {
