@@ -26,7 +26,7 @@
     "dev": "astro dev",
     "preview": "astro build && npm run remove-draft-from-sitemap && astro preview",
     "build": "astro build && node ./scripts/remove-draft-from-sitemap.mjs",
-    "postbuild": "touch ./dist/.nojekyll",
+    "postbuild": "touch ./docs/.nojekyll",
     "check": "astro check",
     "format": "prettier --write ./src",
     "generate-favicons": "node ./scripts/generate-favicons.mjs",
