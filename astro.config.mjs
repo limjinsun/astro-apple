@@ -23,7 +23,7 @@ let {
 // https://astro.build/config
 export default defineConfig({
   outDir: './docs',  // <== This is where build output goes
-  site: 'https://limjinsun.github.io/astro-orange/',  // Full URL
+  site: 'https://limjinsun.github.io',  // Full URL
   trailingSlash: config.site.trailingSlash ? "always" : "never",
   i18n: {
     locales: enabledLanguages,
