@@ -25,7 +25,7 @@
   "scripts": {
     "dev": "astro dev",
     "preview": "astro build && npm run remove-draft-from-sitemap && astro preview",
-    "build": "astro build && node ./scripts/remove-draft-from-sitemap.mjs",
+    "build": "astro build && node ./scripts/remove-draft-from-sitemap.mjs && node ./scripts/fix-font-paths.js",
     "postbuild": "touch ./docs/.nojekyll",
     "check": "astro check",
     "format": "prettier --write ./src",
